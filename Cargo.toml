@@ -1,0 +1,18 @@
+[package]
+name = "staticserv"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+axum = {version= "0.4.8",features=["multipart"] }
+tokio = { version = "1", features = ["full"] }
+walkdir = "2.3.2"
+tower-http = {version = "0.2.5",features=["fs","trace"]}
+hyper = {version = "0.14.18",features=["full"]}
+tower = "0.4.12"
+
+[[bin]]
+name = "staticserv"
+path = "src/main.rs"
