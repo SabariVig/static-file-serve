@@ -11,3 +11,5 @@ curl -X POST  -F "data=@<filename.ext>" http://localhost:3000
 curl http://localhost:3000/uploads/<filename.ext>
 
 ```
+
+![Index](./doc/index.png)
