@@ -2,6 +2,10 @@
 
 Simple self hosting file server which works with cURL
 
+##### Run with docker
+```
+docker-compose up -d
+```
 
 ```bash
 # Upload

@@ -1,0 +1,9 @@
+version: "3"
+services:
+  staticserve:
+    build: .
+    ports:
+      - "3000:3000"
+    volumes:
+      - "./uploads:/app/uploads"
+
